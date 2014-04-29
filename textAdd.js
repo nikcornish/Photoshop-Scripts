@@ -1,4 +1,4 @@
-//  TEXTADD: Appends new text to an all existing text layers.
+//  TEXTADD: Appends a new text string to an all existing text layers.
 
 /*
     An adaptation of a script found in this great tutorial: http://psd.tutsplus.com/articles/tools/photoshop-scripting/
