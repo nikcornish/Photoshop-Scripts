@@ -1,10 +1,8 @@
-/*
-	
-COLUMNS AND ROWS:
+//	COLUMNS AND ROWS: Adds uniform columns and rows as guides.
 
+/*
 	A short script which can be applied to an existing PSD file, adding a user specified amount of columns or rows as guides to the PSD file. 
 	Columns and rows are added evenly distributed, so an input of 2 columns and 2 rows will result in.
-
 
 HOW IT WORKS:
 	1.	SET initial units to pixels
@@ -16,6 +14,9 @@ HOW IT WORKS:
 */
 
 
+// START //
+
+
 //	1. SET initial units to pixels
 preferences.rulerUnits = Units.PIXELS;
 preferences.typeUnits = TypeUnits.PIXELS;
@@ -25,7 +26,7 @@ var d = app.activeDocument;
 var docWidth = d.width;
 var docHeight = d.height;
 
-var severalGuides = function() {
+var columnsAndRows = function() {
 
 	//	3. PROMPT for user input
 	var howManyCols = parseInt(prompt("How many columns?","4"));
@@ -43,4 +44,7 @@ var severalGuides = function() {
 }
 
 //	6. CALL the function
-severalGuides();
+columnsAndRows();
+
+
+// END //
