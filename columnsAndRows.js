@@ -14,14 +14,6 @@ HOW IT WORKS:
 */
 
 
-
-
-
-
-
-// START //
-
-
 //	1. SET initial units to pixels
 preferences.rulerUnits = Units.PIXELS;
 preferences.typeUnits = TypeUnits.PIXELS;

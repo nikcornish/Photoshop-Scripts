@@ -9,13 +9,6 @@ HOW IT WORKS:
 */
 
 
-
-
-
-
-
-// START //
-
 //  1.  GET the active document, then the number of guides
 var d = app.activeDocument;
 var guideCount = d.guides.length;

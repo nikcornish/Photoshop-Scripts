@@ -14,9 +14,6 @@ HOW IT WORKS:
 */
 
 
-// START //
-
-
 //  1. PROMPT user to enter typeface.
 var newFont = prompt("Enter New Typeface:\nRemember, you need the Postscript name.");
 

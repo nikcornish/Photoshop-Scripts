@@ -9,9 +9,6 @@ HOW IT WORKS:
 */
 
 
-// START //
-
-
 //  1. PROMPT user to enter additional text.
 var newText = prompt("Enter text to add.\nDon't forget an initial space (if needed).");
 
