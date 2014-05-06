@@ -4,9 +4,7 @@ Photoshop-Scripts
 A collection of javascript files for improving everyday Photoshop workflows.
 
 COLUMNS AND ROWS:	Adds uniform columns and rows as guides.
-
 FONTSWAP:			Swaps the current typeface of all text layers to a new typeface.
-
 TEXTADD:			Appends a new text string to an all existing text layers.
 
 ================================================================================
